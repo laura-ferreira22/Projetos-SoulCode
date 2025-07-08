@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+    <title>Let&cia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="owl.png" type="image/png">
+
+
+</head>
+
+<body>
+
+
+    <header id="container-navbar">
+
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid d-flex justify-content-between ">
+        
+            
+                <a class="navbar-brand" href="#"><h1>Let&cia</h1></a>
+        
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="#sobre">Home</a>
+                        <a class="nav-link" href="#produto">Produtos</a>
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </div>
+                </div>
+        
+            </div>
+        </nav>
+
+
+    </header>
+
+
+    <main id="containerMain"class="container">
+
+        <div id="carousel" class="container mt-5 mb-5">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="doce.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption ">
+                            <h5>Doces</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="empada.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption ">
+                            <h5>Salgados</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="encomenda1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption ">
+                            <h5>E muito mais!</h5>
+                            <p><a href="https://wa.me/71985385330?text=Ol%C3%A1%2C%20quero%20fazer%20um%20pedido%20na%20Let%26cia" target="_blank">Clique para encomendar</a></p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div id="imgText" class="container mt-4 mb-5">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h2 id="sobre" class="fw-bold mg mb-5">Sobre nós</h2>
+                    <p>
+                        A Let&cia nasceu do sonho de uma jovem adulta independente, apaixonada por cozinha e por criar momentos doces (e
+                        salgados!) na vida das pessoas. Aqui, tudo é feito por encomenda, com muito carinho, ingredientes de qualidade e aquele
+                        toque caseiro que lembra comida de vó.
+                        
+                        No nosso cardápio você encontra empadas super recheadas, bolos deliciosos (como o de paçoca, que é sucesso!),
+                        queijadinhas irresistíveis e outras delícias que mudam de tempos em tempos, afinal, adoramos inovar e surpreender!
+                        
+                        Mais do que vender comida, a Let&cia quer levar afeto em forma de sabor. 💛
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img id="logo" src="logo let&cia.jpeg" class="img-fluid" alt="..." />
+                </div>
+            </div>
+        </div>
+
+        <style>
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+    }
+</style>
+
+<div id="produto" class="container">
+    <h2 class="text-center fw-bold mb-5">Produtos</h2>
+
+    <div id="cardsContainer" class="d-flex justify-content-center flex-wrap gap-4">
+        <div class="card mx-auto card-container" style="width: 18rem;">
+            <img src="empada.jpg" class="card-img-top" alt="Empadas">
+            <div class="card-body d-flex flex-column justify-content-between flex-grow-1">
+                <h5 class="card-title">Empadas</h5>
+                <p class="card-text">Deliciosas empadas por R$4,00</p>
+                <a href="https://wa.me/71985385330?text=Ol%C3%A1%2C%20quero%20fazer%20um%20pedido%20na%20Let%26cia" target="_blank"  class="btn btn-custom mt-auto">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card mx-auto card-container" style="width: 18rem;">
+            <img src="bolo de churros.jpg" class="card-img-top" alt="Bolo de Churros">
+            <div class="card-body d-flex flex-column justify-content-between flex-grow-1">
+                <h5 class="card-title">Bolo de churros</h5>
+                <p class="card-text">Bolinhos com sabor de infância! Por apenas R$5,00</p>
+                <a href="https://wa.me/71985385330?text=Ol%C3%A1%2C%20quero%20fazer%20um%20pedido%20na%20Let%26cia" target="_blank"  class="btn btn-custom mt-auto">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card mx-auto card-container" style="width: 18rem;">
+            <img src="bolo paçoca.jpg" class="card-img-top" alt="Bolo de Paçoca">
+            <div class="card-body d-flex flex-column justify-content-between flex-grow-1">
+                <h5 class="card-title">Bolo de paçoca</h5>
+                <p class="card-text">Feito por encomenda, a partir de R$50,00</p>
+                <a href="https://wa.me/71985385330?text=Ol%C3%A1%2C%20quero%20fazer%20um%20pedido%20na%20Let%26cia" target="_blank"  class="btn btn-custom mt-auto">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card mx-auto card-container" style="width: 18rem;">
+            <img src="queijadinha.jpg" class="card-img-top" alt="Queijadinha">
+            <div class="card-body d-flex flex-column justify-content-between flex-grow-1">
+                <h5 class="card-title">Queijadinha</h5>
+                <p class="card-text">Aquele gostinho de casa de vó, por apenas R$4,00.</p>
+                <a href="https://wa.me/71985385330?text=Ol%C3%A1%2C%20quero%20fazer%20um%20pedido%20na%20Let%26cia" target="_blank"  class="btn btn-custom mt-auto">Comprar</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="RoundedImg" class="container mt-5 mb-5">
+            <h2 class="text-center fw-bold ">feedbacks</h2>
+        
+            <div class="row text-center mt-4 ">
+                <div class="col-md-4 mb-5">
+                    <img src="feedback.png" class="rounded-circle img-fluid"
+                        alt="...">
+                </div>
+                <div class="col-md-4 mb-5">
+                    <img src="feedback2.png" class="rounded-circle img-fluid" alt="...">
+                </div>
+                <div class="col-md-4 mb-5">
+                    <img src="feedback3.png" class="rounded-circle img-fluid" 
+                        alt="...">
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+<footer class="mt-5 ">
+    <div class="container py-3">
+        <div
+            class="d-flex flex-column flex-md-row justify-content-between text-center text-md-start align-items-center gap-2">
+
+            <h2 class="m-0">Let&cia</h2>
+
+            <div>
+                <p class="m-0">Let&cia.com © Todos os direitos reservados.</p>
+                <p id="contato" class="m-0">
+                    Contato:
+                    <a href="https://wa.me/71985385330?text=Ol%C3%A1%2C%20quero%20fazer%20um%20pedido%20na%20Let%26cia" target="_blank" rel="noopener noreferrer">
+                        clique aqui e fale conosco no WhatsApp
+                    </a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{  
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+  background-color: #0b4c9691; 
+  color: #ffffff;
+}
+
+.navbar a {
+  color: #ffffff; 
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #ffd77a; 
+  transition: 0.3s;
+  text-shadow: 2px 2px 4px #c0e0ff; 
+}
+
+
+body{
+    background: linear-gradient(to bottom, #4a90e2, #e0f0ff);
+}
+
+#carousel{
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #0000008e;
+}
+.carousel-inner h5{
+  color: #ffffff; 
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); 
+  font-weight: 700;
+  font-size: 2.5rem;
+
+}
+
+.carousel-inner a{
+    font-size: 20px;
+    color: #ffffff; 
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+.carousel-inner img{
+    max-width: 1440px;
+    height: 479px;
+    object-fit: cover;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+h2{
+    color: #e08e0b; 
+    text-shadow: 2px 2px 4px #fad59ab4; 
+    font-weight: 700;
+}
+
+#imgText{
+    background-color: #c0e0ff86;
+    border-radius: 10px;
+    padding: 20px;}
+
+#imgText:hover{
+    transition: 0.5s;
+    box-shadow: 2px 2px 10px #ffffff8e;
+}
+
+#imgText p{
+    color:#2C3E50; 
+    font-size: 18px;
+}
+#logo{
+    border-radius: 50%;
+   
+}
+
+#logo:hover{
+    box-shadow: 2px 2px 10px #0000008e;
+    transition: 0.5s;
+}
+
+.card {
+        
+    border: none;
+    box-shadow: 2px 2px 10px #0000008e;
+    transition: 0.5s;
+    background-color: #0b4c966e;
+    
+}
+
+.card:hover {
+    box-shadow: 2px 2px 10px #ffffff8e;
+    transform: scale(1.05);
+}
+
+.btn-custom {
+  background-color: #f5a623; /* cor personalizada */
+  color: #ffffff;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #e08e0b;
+  color: #ffffff;
+}
+
+#RoundedImg{
+    border-radius: 10px;
+    background-color:#477baf27;
+    padding: 20px;
+   
+}
+
+#RoundedImg img:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 2px 10px #0000008e;
+    transition: 0.5s;
+}
+
+
+footer {
+    background-color:#0b4c966e; 
+
+    
+}
+
+footer p  {
+   color: #ffffff; 
+    
+}
+#contato{
+    font-weight: 600;
+}
+footer a {
+    color: #ffffff; 
+    text-decoration: none;
+    
+}
